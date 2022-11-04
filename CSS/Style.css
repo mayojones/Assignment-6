@@ -1,0 +1,147 @@
+
+
+h1 {
+    z-index: 20;
+    position: relative;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -15%;
+
+
+    color: white;
+    font-family: brother-1816-printed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+body {
+    background-color:black ;
+
+}
+
+
+
+P {
+    z-index: 55; 
+
+ 
+    font-family: brother-1816-printed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: pink;
+    
+}
+
+
+ul {
+    z-index: 5; 
+    margin-left: 5%;
+    color: black;
+    
+    font-family: brother-1816,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5%;
+
+}
+
+#world {
+    z-index: -2;
+    width: 1000px;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 22%;
+    background-color: black;
+    opacity: 150%;
+    clear: both;
+}
+
+
+
+#button1{
+    width: 300px;
+    padding-top: 300px;
+    height:200px;
+    background-image: url("../images/Ti.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 185%;
+    z-index: 15;
+
+    margin-left: 22%;
+    margin-top: 23%;
+    transform:rotate(45deg);
+    position: fixed;
+    box-shadow: 4px 5px 5px #2a2a2a;
+    border:5px solid #679495; 
+    float: left;
+}
+
+#button2{
+    width: 300px;
+    padding-top: 300px;
+    height:200px;
+    background-image: url("../images/ISS.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+    z-index: 17;
+    float: left;
+
+    margin-left: 60%;
+    margin-top: 23%;
+    transform:rotate(45deg);
+    position: fixed;
+    box-shadow: 4px 5px 5px #2a2a2a;
+    border:5px solid #679495; 
+
+    clear: left;
+}
+
+#astroNames1{
+    display: none;
+    z-index: 2; 
+    transform:rotate(-45deg);
+
+    margin-top: -40%;
+    margin-left: 53%;
+    background-color: white;
+    border:5px solid #679495; 
+    width: 100px;
+    padding-top: 5%;
+    margin-bottom: -15%;
+    padding-left: 3%;
+    list-style: none;
+
+    box-shadow: 4px 5px 5px #2a2a2a;
+    
+}
+
+
+
+#astroNames2{
+    display: none;
+    transform:rotate(-45deg);
+
+    margin-top: -43%;
+    margin-left: 73%;
+    background-color: white;
+    border:5px solid #679495; 
+    width: 100px;
+    padding-top: 5%;
+    margin-bottom: -15%;
+    padding-left: 3%;
+    list-style: none;
+
+    box-shadow: 4px 5px 5px #2a2a2a;
+    
+}
+
+
+
+
